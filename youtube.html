@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,16 +12,41 @@
         }
 
         body {
-            width: 100vw;
-            height: 1240px;
-            background-image: url(imagens/tela-youtube.png);
-            background-repeat: no-repeat;
-            background-position: top center;
-            background-size: 100%;
+            background-color: black;
         }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        button {
+            padding: 20px 93px 20px 93px;
+            display: block;
+            margin: auto;
+            color: white;
+            background-color: #8B0000;
+            border: none;
+            text-align: center;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #b60000;
+        }
+
     </style>
 </head>
+
 <body>
-    
+    <img src="imagens/tela-youtube.png" alt="youtube">
+    <a href="https://www.youtube.com/cursoemvideo" target="_blank"><button>ACESE JÁ</button></a>
 </body>
+
 </html>
